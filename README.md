@@ -1,17 +1,17 @@
 # Yuer-DSL-SDK
 
-Yuer-DSL-SDK is the official developer toolkit for **Yuer DSL**,\
+Yuer-DSL-SDK is the official developer toolkit for **Yuer DSL**,
 the expression-driven decision language designed for cognitive AI
-systems\
+systems
 and positioned as the execution language of the **EDCA OS** ecosystem.
 
 This SDK provides:
 
--   **DSL → JSON compiler**\
--   **Semantic signature generator**\
--   **Syntax validator**\
--   **Deterministic execution adapters**\
--   **CONTROL block + SIGNATURE block builder**\
+-   **DSL → JSON compiler**
+-   **Semantic signature generator**
+-   **Syntax validator**
+-   **Deterministic execution adapters**
+-   **CONTROL block + SIGNATURE block builder**
 -   **Runtime integration tools for EDCA-OS**
 
 ------------------------------------------------------------------------
@@ -21,10 +21,10 @@ This SDK provides:
 Yuer DSL is a next-generation expression-driven AI language designed
 for:
 
--   Deterministic execution\
--   Semantic control\
--   Behavior orchestration\
--   Multi-layer cognitive chaining\
+-   Deterministic execution
+-   Semantic control
+-   Behavior orchestration
+-   Multi-layer cognitive chaining
 -   Verifiable signatures for audit & intent locking
 
 All Yuer DSL files follow the standard structure:
@@ -79,10 +79,10 @@ Consumed by **EDCA OS**.
 
 Validates:
 
--   Structural fields\
--   CONTROL constraints\
--   SIGNATURE block\
--   Indentation / YAML-like structure\
+-   Structural fields
+-   CONTROL constraints
+-   SIGNATURE block
+-   Indentation / YAML-like structure
 -   Semantic anchors
 
 Returns deterministic pass/fail.
@@ -93,9 +93,9 @@ Returns deterministic pass/fail.
 
 Generates semantic-level cryptographic hash based on:
 
--   anchors\
--   intent\
--   control values\
+-   anchors
+-   intent
+-   control values
 -   rules
 
 Written into the `HASH:` field.
@@ -106,9 +106,9 @@ Written into the `HASH:` field.
 
 Connects compiled DSL packets to:
 
--   EDCA OS\
--   External agents\
--   Behavior executors\
+-   EDCA OS
+-   External agents
+-   Behavior executors
 -   Cognitive chains
 
 Guarantees deterministic consistency.
@@ -154,11 +154,11 @@ yuer run example.json
 
 ## 🔷 4. Future Roadmap (v1 → v2)
 
--   Plugin architecture\
--   Type checker\
--   Inline semantic anchors\
--   Behavior Chain Compiler (BCC)\
--   Multi-agent adapter\
+-   Plugin architecture
+-   Type checker
+-   Inline semantic anchors
+-   Behavior Chain Compiler (BCC)
+-   Multi-agent adapter
 -   Runtime streaming executor
 
 ------------------------------------------------------------------------
@@ -175,6 +175,6 @@ The Yuer-DSL-SDK is published **without a license**, meaning:
 
 ## 🔷 6. Author
 
-Created by **Yuer (管瑜)**\
+Created by **Yuer (管瑜)**
 Designer of **EDCA OS**, **Yuer DSL**, and the **Expression-Driven
 Cognitive Architecture**.
